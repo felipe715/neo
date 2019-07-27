@@ -9,9 +9,14 @@
 ### Install
 
 - .env with database credentials
+
+Terminal:
 - cd /neoway-test 
 - npm install
 - composer install
 - php artisan migrate
 - php artisan serve
 
+### Tests
+Terminal
+- /vendor/bin/phpunit
